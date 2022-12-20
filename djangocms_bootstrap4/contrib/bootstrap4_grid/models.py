@@ -2,7 +2,7 @@ from functools import partial
 
 from django.db import models
 from django.utils.translation import gettext_lazy as _
-from django.utils.translation import ungettext
+from django.utils.translation import ngettext as ungettext
 
 from cms.models import CMSPlugin
 
